@@ -1,0 +1,78 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fffded;
+}
+
+header {
+    border-bottom: 3px solid #931420;
+    padding: 1.5em 0 2em;
+    background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+h1 {
+    font-size: 150%;
+    padding: .5em 0 .25em;
+    margin: 0;
+}
+
+h2 {
+    font-size: 120%; /* Adjust as necessary */
+    padding: 10px 0;
+}
+
+h3 {
+    font-size: 110%; /* Adjust as necessary */
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    width: 525px; /* Adjusted width for content area */
+    padding: 20px 20px 20px 0;
+    flex: 3; /* Allows the section to grow */
+}
+
+aside {
+    width: 215px; /* Adjusted width for sidebar */
+    padding: 20px 0 20px 20px;
+    flex: 1; /* Allows the aside to grow */
+}
+
+footer {
+    clear: both;
+    background-color: #931420;
+    padding: 1em 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 10px;
+    border-left: 5px solid #931420;
+    margin: 10px 0;
+}
+
+img {
+    display: block; /* Change to block to align under the heading */
+    margin: 10px 0; /* Adjust margins for spacing */
+    border: 1px solid black; /* Adjust if necessary */
+}
